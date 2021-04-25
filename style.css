@@ -1,0 +1,339 @@
+@charset 'UTF-8';
+
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+html, body
+{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #DDD;
+}
+
+a, a:link, a:visited
+{
+  color: #00F;
+}
+a:hover
+{
+  color: #F70;
+  text-decoration: none;
+}
+
+header, main, footer
+{
+  padding: 0px 16px;
+}
+
+.my-container
+{
+  max-width: 720px;
+  min-height: 100%;
+  width: 720px;
+  height: auto;
+  margin-left: 30px;
+  font-family: 'VT323', monospace;
+  border-left: 4px dotted #000;
+  border-right: 4px dotted #000;
+  background: #FFF;
+}
+
+@media (max-width: 768px)
+{
+  .my-container
+  {
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+    border-left: none;
+    border-right: none;
+  }
+}
+
+.note
+{
+  margin: 8px 0px;
+  padding: 8px 16px;
+  text-align: left;
+  color: #FFF;
+  background: #00F;
+}
+
+.warning
+{
+  margin: 8px 0px;
+  padding: 8px 16px;
+  text-align: left;
+  color: #FFF;
+  background: #F00;
+}
+
+a.note:hover, a.warning:hover
+{
+  color: #FFF;
+  background: #000;
+}
+
+.note h5, .warning h5
+{
+  margin: 0;
+  padding: 0;
+}
+
+.note a, .note a:link, .note a:visited,
+.warning a, .warning a:link, .warning a:visited
+{
+  color: #FF0;
+}
+.note a:hover,
+.warning a:hover
+{
+  color: #F70;
+  text-decoration: none;
+}
+
+.centerise
+{
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+header
+{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+}
+
+@media (max-width: 575px)
+{
+  header h1
+  {
+    text-align: center;
+  }
+}
+
+header h1.colors
+{
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 575px)
+{
+  header h1.colors
+  {
+    display: none;
+  }
+}
+
+header.info
+{
+  color: #CCC;
+  border-top: 4px dotted #CCC;
+  border-bottom: 4px dotted #CCC;
+}
+
+header.info h5
+{
+  margin: 0;
+  padding: 0;
+}
+
+header noscript.warning
+{
+  margin-top: 8px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+nav.collapsible
+{
+  overflow: hidden;
+}
+
+nav.collapsible a
+{
+  display: block;
+  float: left;
+  padding: 0px 12px;
+}
+nav.collapsible a:first-child
+{
+  padding-left: 0;
+}
+nav.collapsible a:last-child
+{
+  padding-right: 0;
+}
+nav.collapsible a#active
+{
+  text-decoration: underline;
+}
+nav.collapsible a.toggle
+{
+  display: none;
+}
+
+@media (max-width: 575px)
+{
+  nav.collapsible a:not(:first-child)
+  {
+    display: none;
+  }
+  nav.collapsible a.toggle
+  {
+    display: block;
+    float: right;
+  }
+
+  nav.collapsible.responsive
+  {
+    position: relative;
+  }
+
+  nav.collapsible.responsive a
+  {
+    float: none;
+    display: block;
+    padding-left: 0;
+  }
+  nav.collapsible.responsive a.toggle
+  {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+.note#home
+{
+  color: #000;
+  background: #0F0;
+}
+.note#games
+{
+  color: #FFF;
+  background: #00F;
+}
+.note#software
+{
+  color: #000;
+  background: #FF0;
+}
+.note#screensavers
+{
+  color: #FFF;
+  background: #F0F;
+}
+.note#contact
+{
+  color: #FFF;
+  background: #F00;
+}
+
+.note#home:hover,
+.note#games:hover,
+.note#software:hover,
+.note#screensavers:hover,
+.note#contact:hover
+{
+  color: #FFF;
+  background: #000;
+}
+
+.section
+{
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+@media (min-width: 576px)
+{
+  .section [class!=col-12][class^=col-]:first-child
+  {
+    margin-right: 0;
+    padding-right: 0;
+  }
+  .section [class!=col-12][class^=col-]:last-child
+  {
+    margin-left: 0;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 575px)
+{
+  .section [class^=col-]:not(:first-child)
+  {
+    margin-top: 6px;
+  }
+  .section [class^=col-]:not(:last-child)
+  {
+    margin-bottom: 6px;
+  }
+}
+
+.section img
+{
+  width: 100%;
+  border: 3px dotted #000;
+}
+
+.section .platform img
+{
+  width: 32px;
+  border: none;
+}
+
+footer
+{
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+@media (max-width: 575px)
+{
+  footer
+  {
+    text-align: center;
+  }
+}
+
+footer h5
+{
+  color: #CCC;
+}
+
+footer nav ul
+{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+footer nav ul li
+{
+  display: inline-block;
+  padding: 0px 12px;
+}
+footer nav ul li:first-child
+{
+  padding-left: 0;
+}
+
+footer nav ul li a h5, footer nav ul li a:link h5, footer nav ul li a:visited h5
+{
+  color: #AAF;
+}
+footer nav ul li a:hover h5
+{
+  color: #FCA;
+}
