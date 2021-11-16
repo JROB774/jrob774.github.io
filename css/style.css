@@ -248,13 +248,17 @@ nav.collapsible a.toggle
 .section img
 {
   width: 100%;
-  border: 3px dotted #000;
 }
 
 .section .platform img
 {
   width: 32px;
   border: none;
+}
+
+.section .thumbnail
+{
+  border: 3px dotted #000;
 }
 
 footer
