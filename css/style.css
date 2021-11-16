@@ -264,6 +264,7 @@ nav.collapsible a.toggle
 {
   border: 3px dotted #000;
   height: 160px;
+  background-color: #F0F;
   background-size: auto;
   background-repeat: no-repeat;
   background-position: center;
