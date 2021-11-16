@@ -251,6 +251,55 @@ nav.collapsible a.toggle
 .section .thumbnail
 {
   border: 3px dotted #000;
+  height: 160px;
+}
+
+.section .thumbnail img
+{
+  width: 100%;
+  height: 100%;
+}
+
+.banner
+{
+  border: 3px dotted #000;
+  height: 160px;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.banner#planet-3310
+{
+  background-image: url("../img/thumbs/planet-3310.png");
+}
+.banner#brick-and-blood
+{
+  background-image: url("../img/thumbs/brick-and-blood.png");
+}
+.banner#fish-blaster
+{
+  background-image: url("../img/thumbs/fish-blaster.png");
+}
+.banner#dog
+{
+  background-image: url("../img/thumbs/dog.png");
+}
+.banner#gbisaac
+{
+  background-image: url("../img/thumbs/gbisaac.png");
+}
+.banner#trace-ball
+{
+  background-image: url("../img/thumbs/trace-ball.png");
+}
+.banner#runner
+{
+  background-image: url("../img/thumbs/runner.png");
+}
+.banner#block-fever
+{
+  background-image: url("../img/thumbs/block-fever.png");
 }
 
 footer
