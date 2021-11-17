@@ -1,16 +1,19 @@
 function adjustNavBar() {
-    if($(window).width() < 575) $(".nav-wrapper").removeClass("centerise");
-    else $(".nav-wrapper").addClass("centerise");
-}
+    let nav = document.getElementById("nav-wrapper");
+    if(window.innerWidth > 575) nav.className = "center";
+    else nav.className = "";
+};
 
-$(window).resize(function() {
+window.addEventListener("resize", (event) => {
     adjustNavBar();
 });
 
-$(document).ready(function() {
+document.addEventListener("DOMContentLoaded", (event) => {
     adjustNavBar();
-    $("#main-nav").click(function() {
-        if(this.className === "collapsible") this.className += " responsive";
-        else this.className = "collapsible";
-    });
+    let nav = document.getElementById("main-nav");
+    nav.onclick = function()
+    {
+        if(nav.className === "collapsible") nav.className += " responsive";
+        else nav.className = "collapsible";
+    };
 });

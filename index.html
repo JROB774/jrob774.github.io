@@ -35,7 +35,7 @@
             <span style="color:#F00;">&#9608;</span>
           </div>
         </h1>
-        <div class="nav-wrapper centerise">
+        <div id="nav-wrapper">
           <nav class="collapsible" id="main-nav">
             <a href="index.html" id="active"><h5>HOME</h5></a>
             <a href="games.html"><h5>GAMES</h5></a>
@@ -51,25 +51,21 @@
       </header>
       <main>
         <div class="section">
-          <div class="row">
-            <div class="col-12">
-              <a href="index.html">
-                <div class="note" id="home">
-                  <h5>*** HOME :: YOU ARE CURRENTLY HERE ***</h5>
-                </div>
-              </a>
-              <a href="games.html">
-                <div class="note" id="games">
-                  <h5>*** GAMES :: DOWNLOAD AND PLAY MY GAMES ***</h5>
-                </div>
-              </a>
-              <a href="software.html">
-                <div class="note" id="software">
-                  <h5>*** SOFTWARE :: DOWNLOAD MY SOFTWARE ***</h5>
-                </div>
-              </a>
+          <a href="index.html">
+            <div class="note" id="home">
+              <h5>*** HOME :: YOU ARE CURRENTLY HERE ***</h5>
             </div>
-          </div>
+          </a>
+          <a href="games.html">
+            <div class="note" id="games">
+              <h5>*** GAMES :: DOWNLOAD AND PLAY MY GAMES ***</h5>
+            </div>
+          </a>
+          <a href="software.html">
+            <div class="note" id="software">
+              <h5>*** SOFTWARE :: DOWNLOAD MY SOFTWARE ***</h5>
+            </div>
+          </a>
         </div>
       </main>
       <footer>
@@ -83,11 +79,7 @@
         </nav>
       </footer>
     </div>
-    <!-- the dependencies for bootstrap, as well as bootstrap itself -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <!-- local scripts for the page -->
-    <script src="src/nav.js"></script>
+    <script src="src/nav.js">
+    </script>
   </body>
 </html>

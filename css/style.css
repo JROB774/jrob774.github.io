@@ -161,7 +161,7 @@ nav.collapsible a:first-child
 {
   padding-left: 0;
 }
-nav.collapsible a:last-child
+nav.collapsible a:nth-last-child(2)
 {
   padding-right: 0;
 }
@@ -379,4 +379,12 @@ footer nav ul li a:hover h5
 {
   color: #FFF;
   background: #000;
+}
+
+.center
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
