@@ -237,6 +237,7 @@ nav.collapsible a.toggle
     float: none;
     display: block;
     padding-left: 0;
+    text-align: left;
   }
   nav.collapsible.responsive a.toggle
   {
