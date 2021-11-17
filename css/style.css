@@ -1,6 +1,10 @@
 @charset "UTF-8";
 
-@import url("https://fonts.googleapis.com/css?family=VT323");
+@font-face
+{
+  font-family: "VT323";
+  src: url("fonts/VT323.woff2") format("woff2");
+}
 
 html, body
 {
@@ -276,45 +280,124 @@ nav.collapsible a.toggle
   height: 100%;
 }
 
-.banner
+.game-banner
 {
   border: 3px dotted #000;
+  border-top-style: solid;
+  border-bottom-style: solid;
   height: 160px;
-  background-color: #F0F;
+  background-color: #FFF;
   background-size: auto;
   background-repeat: no-repeat;
   background-position: center;
+  cursor: pointer;
 }
 
-.banner#planet-3310
+.game-content
+{
+  display: none;
+  border: 3px dotted #000;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  padding-right: 12px;
+  padding-left: 12px;
+  height: 480px;
+}
+
+.game-header
+{
+  position: relative;
+  width: 100%;
+  height: 10%;
+  font-size: 2.5rem;
+}
+
+.game-header .title
+{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  color: #000;
+}
+
+.game-header .date
+{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  text-align: right;
+  color: #AAA;
+}
+
+@media (max-width: 575px)
+{
+  .game-header .title
+  {
+    text-align: center;
+  }
+
+  .game-header .date
+  {
+    display: none;
+  }
+}
+
+.game-body
+{
+  position: relative;
+  width: 100%;
+  height: 90%;
+}
+
+.game-body .close
+{
+  position: absolute;
+  right: -6px;
+  bottom: 0;
+  font-size: 1.5rem;
+  color: #00F;
+  cursor: pointer;
+}
+
+.game-body .close:hover
+{
+  color: #F70;
+}
+
+.game-banner#planet-3310-banner
 {
   background-image: url("../img/thumbs/planet-3310.png");
 }
-.banner#brick-and-blood
+.game-banner#brick-and-blood-banner
 {
   background-image: url("../img/thumbs/brick-and-blood.png");
 }
-.banner#fish-blaster
+.game-banner#fish-blaster-banner
 {
   background-image: url("../img/thumbs/fish-blaster.png");
 }
-.banner#dog
+.game-banner#dog-banner
 {
   background-image: url("../img/thumbs/dog.png");
 }
-.banner#gbisaac
+.game-banner#gbisaac-banner
 {
   background-image: url("../img/thumbs/gbisaac.png");
 }
-.banner#trace-ball
+.game-banner#trace-ball-banner
 {
   background-image: url("../img/thumbs/trace-ball.png");
 }
-.banner#runner
+.game-banner#runner-banner
 {
   background-image: url("../img/thumbs/runner.png");
 }
-.banner#block-fever
+.game-banner#block-fever-banner
 {
   background-image: url("../img/thumbs/block-fever.png");
 }
