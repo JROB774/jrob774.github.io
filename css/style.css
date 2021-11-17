@@ -81,7 +81,7 @@ header, main, footer
   background: #FFF;
 }
 
-@media (max-width: 768px)
+@media (max-width: 800px)
 {
   .container
   {
@@ -251,32 +251,6 @@ nav.collapsible a.toggle
 {
   margin-top: 12px;
   margin-bottom: 12px;
-}
-
-@media (min-width: 576px)
-{
-  .section [class!=col-12][class^=col-]:first-child
-  {
-    margin-right: 0;
-    padding-right: 0;
-  }
-  .section [class!=col-12][class^=col-]:last-child
-  {
-    margin-left: 0;
-    padding-left: 0;
-  }
-}
-
-@media (max-width: 575px)
-{
-  .section [class^=col-]:not(:first-child)
-  {
-    margin-top: 6px;
-  }
-  .section [class^=col-]:not(:last-child)
-  {
-    margin-bottom: 6px;
-  }
 }
 
 .section img
