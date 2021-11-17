@@ -11,8 +11,7 @@ window.addEventListener("resize", (event) => {
 document.addEventListener("DOMContentLoaded", (event) => {
     adjustNavBar();
     let nav = document.getElementById("main-nav");
-    nav.onclick = function()
-    {
+    nav.onclick = function() {
         if(nav.className === "collapsible") nav.className += " responsive";
         else nav.className = "collapsible";
     };
