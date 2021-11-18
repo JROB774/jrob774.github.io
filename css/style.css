@@ -401,6 +401,10 @@ nav.collapsible a.toggle
 {
   background-image: url("../img/thumbs/block-fever.png");
 }
+.game-banner#lala-banner
+{
+  background-image: url("../img/thumbs/lala.png");
+}
 
 footer
 {
