@@ -97,6 +97,14 @@ header, main, footer
   }
 }
 
+@media (max-width: 960px)
+{
+  .container
+  {
+    margin: 0 auto;
+  }
+}
+
 .note
 {
   margin: 8px 0px;
