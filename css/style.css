@@ -401,6 +401,14 @@ nav.collapsible a.toggle
 {
   background-image: url("../img/thumbs/trace-ball.png");
 }
+.game-banner#snake-banner
+{
+  background-image: url("../img/thumbs/snake.png");
+}
+.game-banner#minions-banner
+{
+  background-image: url("../img/thumbs/minions.png");
+}
 .game-banner#runner-banner
 {
   background-image: url("../img/thumbs/runner.png");
