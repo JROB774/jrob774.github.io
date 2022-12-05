@@ -288,6 +288,28 @@ nav.collapsible a.toggle
   height: 100%;
 }
 
+.game-year
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #CCC;
+}
+
+.game-year span
+{
+  margin: 0 12px;
+}
+
+.game-year:before, .game-year:after
+{
+  background: none;
+  height: 0px;
+  flex: 1;
+  content: '';
+  border-bottom: 4px dotted #CCC;
+}
+
 .game-banner
 {
   border: 3px dotted #000;
