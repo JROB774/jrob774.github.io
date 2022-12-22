@@ -399,6 +399,10 @@ nav.collapsible a.toggle
   color: #F70;
 }
 
+.game-banner#rocket-banner
+{
+  background-image: url("../img/thumbs/rocket.png");
+}
 .game-banner#tako-banner
 {
   background-image: url("../img/thumbs/tako.png");
