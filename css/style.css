@@ -399,6 +399,10 @@ nav.collapsible a.toggle
   color: #F70;
 }
 
+.game-banner#garden-banner
+{
+  background-image: url("../img/thumbs/garden.png");
+}
 .game-banner#rocket-banner
 {
   background-image: url("../img/thumbs/rocket.png");
