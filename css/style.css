@@ -324,81 +324,89 @@ nav.collapsible a.toggle
   cursor: pointer;
 }
 
-.game-content
+footer
 {
-  display: none;
-  border: 3px dotted #000;
-  border-top-style: solid;
-  border-bottom-style: solid;
-  padding-right: 12px;
-  padding-left: 12px;
-  height: 480px;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 32px;
+  padding-top: 16px;
+  padding-bottom: 12px;
+  border-top: 4px dotted #CCC;
+  text-align: center;
 }
 
-.game-header
+footer h5
 {
-  position: relative;
-  width: 100%;
-  height: 10%;
-  font-size: 2.5rem;
+  color: #CCC;
 }
 
-.game-header .title
+footer nav ul
 {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  text-align: left;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+footer nav ul li
+{
+  display: inline-block;
+  padding: 0px 12px;
+}
+
+footer nav ul li a h5, footer nav ul li a:link h5, footer nav ul li a:visited h5
+{
+  color: #AAF;
+}
+footer nav ul li a:hover h5
+{
+  color: #FCA;
+}
+
+.note#home
+{
   color: #000;
+  background: #0F0;
 }
-
-.game-header .date
+.note#games
 {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  text-align: right;
-  color: #AAA;
+  color: #FFF;
+  background: #00F;
 }
-
-@media (max-width: 575px)
+.note#credits
 {
-  .game-header .title
-  {
-    text-align: center;
-  }
-
-  .game-header .date
-  {
-    display: none;
-  }
+  color: #000;
+  background: #FF0;
 }
-
-.game-body
+.note#UNUSED000
 {
-  position: relative;
-  width: 100%;
-  height: 90%;
+  color: #FFF;
+  background: #F0F;
+}
+.note#UNUSED001
+{
+  color: #FFF;
+  background: #F00;
 }
 
-.game-body .close
+.note#home:hover,
+.note#games:hover,
+.note#credits:hover
 {
-  position: absolute;
-  right: -6px;
-  bottom: 0;
-  font-size: 1.5rem;
-  color: #00F;
-  cursor: pointer;
+  color: #FFF;
+  background: #000;
 }
 
-.game-body .close:hover
+.center
 {
-  color: #F70;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
+
+/***********************************/
+/************** GAMES **************/
+/***********************************/
 
 .game-banner#garden-banner
 {
@@ -455,86 +463,4 @@ nav.collapsible a.toggle
 .game-banner#lala-banner
 {
   background-image: url("../img/thumbs/lala.png");
-}
-
-footer
-{
-  margin-left: 16px;
-  margin-right: 16px;
-  margin-top: 32px;
-  padding-top: 16px;
-  padding-bottom: 12px;
-  border-top: 4px dotted #CCC;
-  text-align: center;
-}
-
-footer h5
-{
-  color: #CCC;
-}
-
-footer nav ul
-{
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-footer nav ul li
-{
-  display: inline-block;
-  padding: 0px 12px;
-}
-
-footer nav ul li a h5, footer nav ul li a:link h5, footer nav ul li a:visited h5
-{
-  color: #AAF;
-}
-footer nav ul li a:hover h5
-{
-  color: #FCA;
-}
-
-.note#home
-{
-  color: #000;
-  background: #0F0;
-}
-.note#games
-{
-  color: #FFF;
-  background: #00F;
-}
-.note#software
-{
-  color: #000;
-  background: #FF0;
-}
-.note#screensavers
-{
-  color: #FFF;
-  background: #F0F;
-}
-.note#contact
-{
-  color: #FFF;
-  background: #F00;
-}
-
-.note#home:hover,
-.note#games:hover,
-.note#software:hover,
-.note#screensavers:hover,
-.note#contact:hover
-{
-  color: #FFF;
-  background: #000;
-}
-
-.center
-{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
 }
