@@ -485,10 +485,6 @@ footer nav ul li
   display: inline-block;
   padding: 0px 12px;
 }
-footer nav ul li:first-child
-{
-  padding-left: 0;
-}
 
 footer nav ul li a h5, footer nav ul li a:link h5, footer nav ul li a:visited h5
 {
