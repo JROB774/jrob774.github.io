@@ -410,57 +410,78 @@ footer nav ul li a:hover h5
 
 .game-banner#garden-banner
 {
-  background-image: url("../img/thumbs/garden.png");
+  background-image: url("../img/thumbs/games/garden.png");
 }
 .game-banner#rocket-banner
 {
-  background-image: url("../img/thumbs/rocket.png");
+  background-image: url("../img/thumbs/games/rocket.png");
 }
 .game-banner#tako-banner
 {
-  background-image: url("../img/thumbs/tako.png");
+  background-image: url("../img/thumbs/games/tako.png");
 }
 .game-banner#planet-3310-banner
 {
-  background-image: url("../img/thumbs/planet-3310.png");
+  background-image: url("../img/thumbs/games/planet-3310.png");
 }
 .game-banner#brick-and-blood-banner
 {
-  background-image: url("../img/thumbs/brick-and-blood.png");
+  background-image: url("../img/thumbs/games/brick-and-blood.png");
 }
 .game-banner#fish-blaster-banner
 {
-  background-image: url("../img/thumbs/fish-blaster.png");
+  background-image: url("../img/thumbs/games/fish-blaster.png");
 }
 .game-banner#dog-banner
 {
-  background-image: url("../img/thumbs/dog.png");
+  background-image: url("../img/thumbs/games/dog.png");
 }
 .game-banner#gbisaac-banner
 {
-  background-image: url("../img/thumbs/gbisaac.png");
+  background-image: url("../img/thumbs/games/gbisaac.png");
 }
 .game-banner#trace-ball-banner
 {
-  background-image: url("../img/thumbs/trace-ball.png");
+  background-image: url("../img/thumbs/games/trace-ball.png");
 }
 .game-banner#snake-banner
 {
-  background-image: url("../img/thumbs/snake.png");
+  background-image: url("../img/thumbs/games/snake.png");
 }
 .game-banner#minions-banner
 {
-  background-image: url("../img/thumbs/minions.png");
+  background-image: url("../img/thumbs/games/minions.png");
 }
 .game-banner#runner-banner
 {
-  background-image: url("../img/thumbs/runner.png");
+  background-image: url("../img/thumbs/games/runner.png");
 }
 .game-banner#block-fever-banner
 {
-  background-image: url("../img/thumbs/block-fever.png");
+  background-image: url("../img/thumbs/games/block-fever.png");
 }
 .game-banner#lala-banner
 {
-  background-image: url("../img/thumbs/lala.png");
+  background-image: url("../img/thumbs/games/lala.png");
+}
+
+/***********************************/
+/************* CREDITS *************/
+/***********************************/
+
+.game-banner#mewgenics-banner
+{
+  background-image: url("../img/thumbs/credits/mewgenics.png");
+}
+.game-banner#cuttlefish-banner
+{
+  background-image: url("../img/thumbs/credits/cuttlefish.png");
+}
+.game-banner#crane-banner
+{
+  background-image: url("../img/thumbs/credits/crane.png");
+}
+.game-banner#erica-banner
+{
+  background-image: url("../img/thumbs/credits/erica.png");
 }
