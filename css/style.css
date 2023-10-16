@@ -377,12 +377,12 @@ footer nav ul li a:hover h5
   color: #000;
   background: #FF0;
 }
-.note#UNUSED000
+.note#pixtoy
 {
   color: #FFF;
   background: #F0F;
 }
-.note#UNUSED001
+.note#UNUSED000
 {
   color: #FFF;
   background: #F00;
@@ -390,7 +390,8 @@ footer nav ul li a:hover h5
 
 .note#home:hover,
 .note#games:hover,
-.note#credits:hover
+.note#credits:hover,
+.note#pixtoy:hover
 {
   color: #FFF;
   background: #000;
