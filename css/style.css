@@ -364,6 +364,13 @@ nav.collapsible a.toggle
 {
   margin-top: -4px;
   padding-top: 0;
+  padding-bottom: 8px;
+}
+
+.game-info
+{
+  font-size: 1.25rem;
+  text-align: center;
 }
 
 footer
