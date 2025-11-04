@@ -526,6 +526,10 @@ footer nav ul li a:hover h5
 {
   background-image: url("../img/thumbs/credits/mewgenics.png");
 }
+.game-banner#codblackops7-banner
+{
+  background-image: url("../img/thumbs/credits/codblackops7.png");
+}
 .game-banner#cuttlefish-banner
 {
   background-image: url("../img/thumbs/credits/cuttlefish.png");
