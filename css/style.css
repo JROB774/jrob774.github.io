@@ -522,6 +522,10 @@ footer nav ul li a:hover h5
 /************* CREDITS *************/
 /***********************************/
 
+.game-banner#codmw4-banner
+{
+  background-image: url("../img/thumbs/credits/codmw4.png");
+}
 .game-banner#mewgenics-banner
 {
   background-image: url("../img/thumbs/credits/mewgenics.png");
